@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Lingus
+Version: 0.0.1
+Summary: Unofficial Duolingo API package
+Home-page: https://github.com/Sigosu/Lingus
+Author: Sigosu
+Author-email: s.sigosu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

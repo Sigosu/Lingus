@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Lingus/__init__.py
+src/Lingus/lingus.py
+src/Lingus.egg-info/PKG-INFO
+src/Lingus.egg-info/SOURCES.txt
+src/Lingus.egg-info/dependency_links.txt
+src/Lingus.egg-info/top_level.txt
