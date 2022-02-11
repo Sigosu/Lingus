@@ -156,19 +156,19 @@ class Lingus(object):
         df = self.get_tracking_properies()
         df = df.iloc[0]['num_sessions_completed']
         return df
-    def get_languages(self):
+    def _get_languages(self):
         df = pd.DataFrame(self.json_raw['languages'])
         df = df.loc[df['learning'] == True]
         pd.set_option('display.max_columns', 20)
         df = df.reset_index(drop=True)
         return df
     def get_active_languages(self):
-        df = self.get_languages()
+        df = self._get_languages()
         active = df.loc[df['current_learning'] == True]
         active = active.reset_index(drop=True)
         return active
     def get_langauge_string(self):
-        df = self.get_languages()
+        df = self._get_languages()
         lesson_string = df.iloc[0]['language_string']
         return lesson_string
     def get_active_level(self):
@@ -187,7 +187,7 @@ class Lingus(object):
         df = df.iloc[0]['language']
         return df
     def get_total_xp(self):
-        df = self.get_languages()
+        df = self._get_languages()
         total_xp = 0
         for index, row in df.iterrows():
             total_xp += row['points']
