@@ -5,13 +5,18 @@
 Lingus is an unofficial Duolingo API that can allow users to view data that isn't necesairly accesible from the profile page.<br/>
 It consists of two types of functions: [owner dependent](#owner-dependent-functions) and [owner independent](#owner-independent-functions) . Owner depented functions show data that can only be viewed if the inspected user is the one that has signed in, while the other ones show data accesible to everyone, regardless of authorization. 
 
+## Instalation
+```
+$ pip install Lingus
+```
+
 ## Function overwiew
 
 #### Creating a user
 
 ```
 #import Lingus
-user = Lingus("SampleUsername", "SampleEmail@email.com", "samplepassword123")
+user = lingus.Lingus("SampleUsername", "SampleEmail@email.com", "samplepassword123")
 ```
 The first value ("SampleUsername") specifies what account will be inspected. It does not have to be the account that belongs to the signed-in user, but that will only allow you to use [owner independent functions](#owner-independent-functions).
 
