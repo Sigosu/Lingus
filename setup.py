@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Lingus",
-    version="0.0.1",
+    version="0.0.2",
     author="Sigosu",
     author_email="s.sigosu@gmail.com",
     description="Unofficial Duolingo API package",
