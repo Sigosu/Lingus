@@ -1,4 +1,6 @@
-# Lingus
+# Deprecated and discontinued
+
+## Lingus
 
 ## [PyPI](https://pypi.org/project/Lingus/0.0.1/)
 
